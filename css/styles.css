@@ -7,3 +7,65 @@ body {
 h1 {
     text-align: center;
 }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.car-card {
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+  position: relative;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.car-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.car-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+}
+
+.car-card h3 {
+  margin: 15px 15px 8px 15px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #222;
+  min-height: 25px;
+}
+
+.car-card p {
+  padding: 0 15px 10px 15px;
+  font-size: 13px;
+  color: #666;
+  line-height: 1.4;
+  flex-grow: 1;
+}
+
+.car-card h4 {
+  color: #bb162b;
+  margin: 12px 15px;
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
