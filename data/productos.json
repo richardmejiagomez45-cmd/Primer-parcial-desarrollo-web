@@ -1,0 +1,44 @@
+[
+{
+    "name": "KIA Sportage",
+    "price": 120000000,
+    "description": "SUV moderna con tecnología avanzada y gran rendimiento.",
+    "image": "img/kia-sportage.jpg",
+    "offer": true
+},
+{
+    "name": "KIA Picanto",
+    "price": 65000000,
+    "description": "Compacto, económico y perfecto para la ciudad.",
+    "image": "img/kia-picanto.avif",
+    "offer": true
+},
+{
+    "name": "KIA K5",
+    "price": 130000000,
+    "description": "Sedán deportivo con diseño elegante.",
+    "image": "img/kia-k5.avif",
+    "offer": false
+},
+{
+    "name": "KIA EV6",
+    "price": 180000000,
+    "description": "Vehículo eléctrico futurista con gran autonomía.",
+    "image": "img/kia-ev6.avif",
+    "offer": true
+},
+{
+    "name": "KIA RIO",
+    "price": 65000000,
+    "description": "Diseño moderno con excelente rendimiento y eficiencia.",
+    "image":"img/kiario5.png",
+    "offer":true
+},
+{
+    "name": "KIA Seltos",
+    "price": 95000000,
+    "description": "SUV compacto con estilo y tecnología avanzada.",
+    "image": "img/kia-seltos.avif",
+    "offer": false
+}
+]
