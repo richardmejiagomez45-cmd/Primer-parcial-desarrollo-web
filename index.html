@@ -12,10 +12,38 @@
 
 <div class="main-content">
 
-
-<section class="banner">
+  <!-- BANNER -->
+  <section class="banner">
     <div class="banner-content">
-    <h1>Descubre el poder de KIA</h1>
-    <p>Diseño, tecnología y rendimiento en un solo lugar</p>
+      <h1>Descubre el poder de KIA</h1>
+      <p>Diseño, tecnología y rendimiento en un solo lugar</p>
+      <a href="vehicles.html" class="btn">Ver Vehículos</a>
     </div>
-</section>
+  </section>
+
+  <!-- VEHÍCULOS DESTACADOS -->
+  <section class="products-section">
+    <h2>Vehículos Destacados</h2>
+    <div id="products-container"></div>
+  </section>
+
+</div>
+
+<div id="footer"></div>
+
+<!-- TEMPLATE -->
+<template id="product-template">
+  <div class="car-card">
+    <img class="product-image" src="" alt="">
+    <h3 class="product-name"></h3>
+    <p class="product-description"></p>
+    <h4 class="product-price"></h4>
+  </div>
+</template>
+
+<!-- SCRIPTS -->
+<script src="js/product-card.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>
