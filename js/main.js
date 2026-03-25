@@ -11,7 +11,6 @@ fetch("components/header.html")
   .then(data => {
     document.getElementById("sidebar").innerHTML = data;
 
-    // 🔥 AHORA TODO EXISTE
     const menuToggle = document.getElementById("menu-toggle");
     const sidebar = document.querySelector(".sidebar");
 
