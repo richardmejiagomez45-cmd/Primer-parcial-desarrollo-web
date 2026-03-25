@@ -140,13 +140,13 @@ class ProductCard extends HTMLElement {
     const priceOriginal = this.shadowRoot.querySelector('.price-original');
     const priceNew = this.shadowRoot.querySelector('h4');
     
-    badge.textContent = -${discountPercent}% OFF;
+    badge.textContent = `-${discountPercent}% OFF`;
     badge.classList.add('show');
     
-    priceOriginal.textContent = $${price.toLocaleString()};
+    priceOriginal.textContent = `$${price.toLocaleString()}`;
     priceOriginal.classList.add('show');
     
-    priceNew.textContent = $${Math.floor(newPrice).toLocaleString()};
+    priceNew.textContent = `$${Math.floor(newPrice).toLocaleString()}`;
   }
 }
 
